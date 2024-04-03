@@ -1,0 +1,72 @@
+Microsoft Windows [Version 10.0.19045.4046]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\>git --version
+git version 2.40.1.windows.1
+
+D:\>git config --global user.name"YogGirase"
+
+D:\>git config --global user.email"ygirase441@gmail.com"
+
+D:\>git clone https://github.com/YogGirase/Yogesh.git
+Cloning into 'Yogesh'...
+warning: You appear to have cloned an empty repository.
+
+D:\>dir
+ Volume in drive D is New Volume
+ Volume Serial Number is 4CB4-A218
+
+ Directory of D:\
+
+06/07/2023  12:15 AM         3,099,641 Do More.jpeg
+06/07/2023  12:21 AM             4,720 download.jfif
+10/19/2023  11:28 AM    <DIR>          dupli imAGE
+10/19/2023  10:49 AM    <DIR>          duplicate
+06/07/2023  12:19 AM             2,588 images.jfif
+03/01/2024  05:58 PM    <DIR>          kachara peti
+06/07/2023  12:17 AM            63,496 motivation.jpg
+07/27/2023  10:47 AM    <DIR>          Python Class
+07/27/2023  10:53 AM    <DIR>          Web Developement
+04/03/2024  09:02 AM    <DIR>          Yogesh
+               4 File(s)      3,170,445 bytes
+               6 Dir(s)  155,735,130,112 bytes free
+
+D:\>cd Yogesh
+
+D:\Yogesh>dir
+ Volume in drive D is New Volume
+ Volume Serial Number is 4CB4-A218
+
+ Directory of D:\Yogesh
+
+04/03/2024  09:02 AM    <DIR>          .
+04/03/2024  09:02 AM    <DIR>          ..
+04/03/2024  09:02 AM                25 demo.txt
+               1 File(s)             25 bytes
+               2 Dir(s)  155,735,130,112 bytes free
+
+D:\Yogesh>git add .
+
+D:\Yogesh>git commit -m "add new
+[main (root-commit) 365a4cf] add new
+ 1 file changed, 1 insertion(+)
+ create mode 100644 demo.txt
+
+D:\Yogesh>git push
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 233 bytes | 233.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/YogGirase/Yogesh.git
+ * [new branch]      main -> main
+
+D:\Yogesh>git add .
+
+D:\Yogesh>git commit -m "add folder"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+D:\Yogesh>
